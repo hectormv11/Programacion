@@ -6,16 +6,16 @@ public class arraysBidimensionales {
 
 	public static void main(String[] args) {
 
-		int[][] matriz = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+		int[][] matriz = {{1,2,3},{4,5,6},{7,8,9},{10,11,12},{13,14,15}};
 		int[][] matriz2 = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
 
 		//sumarPares(matriz);
 
-		/*rellenarCeros(matriz);
-		imprimirArray(matriz);*/
+		//rellenarCeros(matriz);
+		//imprimirArray(matriz);
 
-		/*rellenarDeNumerosAleatorios(matriz);
-		imprimirArray(matriz);*/
+		//rellenarDeNumerosAleatorios(matriz);
+		//imprimirArray(matriz);
 
 		//sonIguales(matriz, matriz2);
 		
@@ -31,7 +31,7 @@ public class arraysBidimensionales {
 		
 		for (int i = 0; i < nueva.length; i++) {
 			
-			for (int j = 0; j < nueva[0].length; j++) {
+			for (int j = 0; j < nueva[i].length; j++) {
 				
 				nueva[i][j] = otro[j][i];
 				
@@ -47,11 +47,17 @@ public class arraysBidimensionales {
 
 		int suma = 0;
 
-		for (int i = 0; i < otro.length-1; i++) {
-			
-			suma += otro[i][i];
+		for (int i = 0; i < otro.length; i++) {
+			for (int j = 0; j < otro[i].length; j++) {
+				
+				if (i==j) {
+					suma += otro[i][j];
+				}
+				
 
+			}
 		}
+		
 		
 		System.out.println(suma);
 
