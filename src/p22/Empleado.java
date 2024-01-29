@@ -10,7 +10,6 @@ public class Empleado {
 	public double sueldo;
 	
 	public Empleado(String nombre, String dni, double sueldo) {
-		super();
 		this.nombre = nombre;
 		this.dni = dni;
 		this.email = generarEmail();
