@@ -13,6 +13,6 @@ public class Juego {
 	public void iniciar() {
 		
 		System.out.println("Hola");
-		Carta ca = new Carta();
+		
 	}
 }

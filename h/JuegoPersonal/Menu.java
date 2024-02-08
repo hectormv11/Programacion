@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Menu {
 
 	public static Juego actualJ = new Juego();
-	public static Cartera actualC = new Cartera();
 
 	public static void main(String[] args) {
 		
@@ -17,7 +16,7 @@ public class Menu {
 
 	public static void inicioMenu() {
 
-		System.out.println("Elija una opcion: 1-Jugar / 2-Ver saldo / 3-Salir");
+		System.out.println("Elija una opcion: 1-Jugar / 2-Ver personajes / 3-Salir");
 
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
@@ -29,7 +28,7 @@ public class Menu {
 			inicioMenu();
 			break;
 		case 2:
-			actualC.verCartera();
+			.verPersonajes();
 			inicioMenu();
 			break;
 		case 3:
