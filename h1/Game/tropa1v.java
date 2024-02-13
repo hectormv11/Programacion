@@ -1,4 +1,4 @@
-package JuegoPersonal;
+package Game;
 
 public class tropa1v extends Personaje{
 	

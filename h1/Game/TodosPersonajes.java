@@ -1,4 +1,4 @@
-package JuegoPersonal;
+package Game;
 
 public class TodosPersonajes {
 	
@@ -28,13 +28,13 @@ public class TodosPersonajes {
 		array[11] = new tropa3v("zanahoria", 2, 3);
 		array[12] = new tropa3v("zanahoria", 2, 3);
 		array[13] = new tropa3v("tronco", 0, 4);
-		array[14] = new tropa3v("fuego", 0, 4);
+		array[14] = new tropa3v("tronco", 0, 4);
 		
 		array[15] = new tropa1v("castaña", 0, 3);
 		array[16] = new tropa1v("castaña", 0, 3);
 		array[17] = new tropa1v("castaña", 0, 3);
-		array[18] = new tropa1v("tripitidora", 1, 5);
-		array[19] = new tropa1v("tripitidora", 1, 5);
+		array[18] = new tropa1v("tripitidora", 1, 4);
+		array[19] = new tropa1v("tripitidora", 1, 4);
 		
 	}
 	
